@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.*/
 
-package week8_skeletoncode_lab;
+package com.mycompany.week8_skeletoncode_lab;
 /**
  *
- * @author MoaathAlrajab
+ * @author Badar Ansari
  */
 public class BubbleSort {
 
