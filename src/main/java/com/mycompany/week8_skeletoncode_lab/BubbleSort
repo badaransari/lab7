@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.*/
+
+package week8_skeletoncode_lab;
+/**
+ *
+ * @author MoaathAlrajab
+ */
+public class BubbleSort {
+
+    public static void bubbleSort(int a[], int size) {
+        int outer, inner, temp;
+        for (outer = size - 1; outer > 0; outer--) { // counting down
+            for (inner = 0; inner < outer; inner++) { // bubbling up
+                //ToDo 3: complete this algorithm, test it, provide its time complexity
+                if (a[inner] > a[inner+1])
+                {
+                    //swap the elements
+                    temp = a[inner];
+                    a[inner] = a[inner+1];
+                    a[inner+1] = temp;
+                }
+            }
+        }
+    }
+}
+    
+    
